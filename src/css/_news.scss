@@ -1,0 +1,45 @@
+.news{
+    padding-top: 90px;
+    padding-bottom: 51px;
+    .row{
+        padding-top: 32px;
+    }
+    &__ad{
+        padding-bottom: 24px;
+        width: 100%;
+        height: 80%;
+    }
+    &__info{
+        display: inline-block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C2D2E;
+        padding-top: 8px;
+    }
+    &__date{
+        display: inline-block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #919399;
+    }
+    &__btn{
+        display: flex;
+        justify-content: center;
+        padding-top: 58px;
+        &-link{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #EF7C00;
+            padding: 13px 20px;
+            border: 1px solid #EF7C00;
+            border-radius: 5px;
+        }
+    }
+}

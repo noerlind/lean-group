@@ -1,0 +1,49 @@
+.certificates{
+    #certificates-slider{
+        padding-top: 30px;
+        padding-bottom: 88px;
+        .certificates-nav{
+            .custom-prev, .custom-next{
+                background-color: transparent !important;
+                position: absolute;
+                top: 35%;
+            }
+            .custom-prev{
+                left: -80px;
+            }
+            .custom-next{
+                right: -80px;
+            }
+        }
+        
+    }
+    .owl-dots{
+            .owl-dot span{
+                display: inline-block;
+                border: 1px solid #EF7C00;
+                background: transparent !important;
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                margin-right: 16px;
+            }
+            .owl-dot.active span{
+                background: #EF7C00 !important;
+            }
+    }
+
+    .owl-dots{
+        button.owl-dot span{
+            display: inline-block;
+            border: 1px solid #EF7C00;
+            background: transparent !important;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            margin-right: 16px;
+        }
+        button.owl-dot.active span{
+            background: #EF7C00 !important;
+        }
+}
+}

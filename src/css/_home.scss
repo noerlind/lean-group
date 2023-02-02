@@ -1,0 +1,132 @@
+.home{
+    .bg{
+        height: 545px;
+        &__info{
+            display: flex;
+            align-content: center;
+            justify-content: flex-start;
+            flex-flow: column;
+            padding-top: 162px;
+            padding-left: 116px;
+            &-header{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 13px;
+                color: #2C2D2E;
+            }
+            &-options{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 40px;
+                color: #2C2D2E;
+                padding-top: 20px;
+            }
+            &-description{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;            
+                color: #2C2D2E;
+                width: 582px;
+                padding-top: 20px;
+                padding-bottom: 26px;
+            }
+            &-btn{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                color: #FFFFFF;
+                background: #EF7C00;
+                border-radius: 4px;
+                padding: 10px 20px;
+                width: 100px;
+            }
+        }
+        &_catalog{
+            background: url('../images/header/bg1.png') center/cover;
+        }
+        &_laminate{
+            background: url('../images/header/bg2.png') center/cover;
+        }
+        &_extrusion{
+            background: url('../images/header/bg3.png') center/cover;}
+    }
+
+
+    .owl-carousel{
+        position: relative;
+    }
+    .owl-dots{
+        position: absolute;
+        text-align: center;
+        padding-left: 116px;
+        display: inline-block;
+        bottom: 40px;
+        .owl-dot span{
+            display: inline-block;
+            border: 1px solid #EF7C00;
+            background: transparent !important;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            margin-right: 16px;
+        }
+        .owl-dot.active span{
+            background: #EF7C00 !important;
+        }
+    }
+
+    .networks{
+        &__list{
+            list-style-type: none;
+            position: absolute;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: flex-end;
+            align-content: center;
+            right: 64px;
+            top: 207px;
+            z-index: 2;
+            &-item{
+                color: #EF7C00;
+                font-size: 25px;
+                padding-bottom: 30px;
+                display: inline-block;
+            }
+        }
+    }
+    .breadcrumb{
+        &__list{
+            display: flex;
+            list-style-type: none;
+            position: absolute;
+            padding-top: 32px;
+            padding-left: 116px;
+            z-index: 2;
+            &-item{
+                display: inline-block;
+            }
+            &-item:not(:last-of-type)::after{
+                content: '\203a';
+                margin: 0 5px;
+                color: #919399;
+            }
+            &-link{
+                display: inline-block;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 13px;
+                color: #919399;
+                &_active{
+                    color: #EF7C00;
+                    font-size: 14px;
+                    line-height: 23px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.footer{
+    padding-top: 30px;
+    background: rgba(0, 16, 61, 0.06);
+    .section{
+        &__top{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            .media{
+                &__list{
+                    list-style-type: none;
+                    &-item{
+                        color: #EF7C00;
+                        font-size: 30px;
+                        display: inline-block;
+                        padding-top: 10px;
+                        padding-left: 24px;
+                    }
+                }
+            }
+        }
+        &__line{
+            height: 2px;
+            background: #919399;
+        }
+        &__bottom{
+            display: flex;
+            padding-top: 16px;
+            padding-bottom: 70px;
+            &-first{
+                width: 60%;
+                &_title{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #2C2D2E;
+                    padding-bottom: 24px;
+                }
+                &_info{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #2C2D2E;
+                    padding-bottom: 12px;
+                }
+            }
+            &-second{
+                display: flex;
+                width: 40%;
+                &_column{
+                    height: 100px;
+                    width: 283px;
+                }
+                &_title{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #EF7C00;
+                    padding-bottom: 12px;
+                }
+                &_tel{
+                    padding-bottom: 8px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #2C2D2E;
+
+                }
+            }
+        }
+    }
+    .copyrights{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 13px;
+        color: #919399;
+        width: 336px;
+        padding-bottom: 30px;
+    }
+    .anchor{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        padding-bottom: 102px;
+        z-index: 9;
+    }
+}
